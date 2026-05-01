@@ -11,19 +11,21 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative w-full min-h-[85vh] flex items-center pt-24 pb-12 lg:pt-40 overflow-hidden">
+    <section className="relative w-full min-h-[85vh] flex items-center pt-44 pb-12 lg:pt-40 overflow-hidden">
       {/* Abstract background graphics */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/4 pointer-events-none"></div>
       <div className="absolute bottom-0 left-0 w-[300px] h-[300px] bg-gray-200/50 rounded-full blur-3xl translate-y-1/4 -translate-x-1/4 pointer-events-none"></div>
 
       <div className="max-w-7xl mx-auto px-6 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center relative z-10">
-        <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
+        <div className="flex flex-col items-center text-center pt-5 lg:items-start lg:text-left">
           <span className="inline-block px-4 py-1.5 rounded-full bg-gray-100 text-xs font-semibold tracking-wider uppercase mb-6 border border-gray-200">
             Presented by JCOML Salem 1.0
           </span>
 
           <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-black leading-[0.95] tracking-tight mb-4 uppercase">
-            BUB EXPO <span className="text-primary block mt-2">2026</span>
+            <span className="bg-gradient-to-b from-[#FF9900] to-[#FF6B00] bg-clip-text text-transparent">BUB</span>{' '}
+            <span className="text-gray-800">E<span className="bg-gradient-to-b from-[#FF9900] to-[#FF6B00] bg-clip-text text-transparent">X</span>PO</span>{' '}
+            <span className="bg-gradient-to-b from-[#FF9900] to-[#FF6B00] bg-clip-text text-transparent block mt-2">2026</span>
           </h1>
 
           <p className="text-xl sm:text-2xl font-medium text-gray-800 mb-2">

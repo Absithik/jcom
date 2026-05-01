@@ -6,7 +6,7 @@ const QuickHighlights = () => {
   const highlights = [
     { icon: <CalendarRange className="w-8 h-8" />, title: "3 Days Event" },
     { icon: <Building2 className="w-8 h-8" />, title: "Multi Industry" },
-    { icon: <Users className="w-8 h-8" />, title: "Thousands Expected" },
+    { icon: <Users className="w-8 h-8" />, title: "Lakhs Expected" },
     { icon: <Handshake className="w-8 h-8" />, title: "Networking" },
     { icon: <TrendingUp className="w-8 h-8" />, title: "Growth Opportunities" },
   ];
@@ -16,7 +16,7 @@ const QuickHighlights = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 lg:gap-6">
           {highlights.map((item, index) => (
-            <motion.div 
+            <motion.div
               key={index}
               initial="hidden"
               whileInView="visible"
